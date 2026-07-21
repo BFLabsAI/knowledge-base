@@ -1,5 +1,6 @@
 ---
 title: O que é o Open Knowledge
+published: true
 ---
 # O que é o Open Knowledge (OK)
 
