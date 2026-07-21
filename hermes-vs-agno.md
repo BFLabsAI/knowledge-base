@@ -22,6 +22,12 @@ Nosso stack pra agente de mensageria (WhatsApp, Instagram, Facebook) costuma seg
 | **Roteamento de LLM** | OmniRoute — um gateway único na frente dos providers |
 | **Exposição pública** | Cloudflare Tunnel, um subdomínio por agente |
 
+> [!TIP]
+> **Recursos do Agno**
+> - [Site / GitHub do Agno](https://github.com/agno-agi/agno) — o framework em si, código aberto.
+> - [Documentação oficial](https://docs.agno.com) — guias, referência de API, exemplos.
+> - [Skill do Agno no skills.sh](https://skills.sh/agno-agi/agno) — pacotes prontos (git-workflow, code-review, system-info) pra instalar direto no agente de código que você usa (`npx skills add agno-agi/agno`).
+
 Cada agente novo nasce clonando um blueprint, ganha uma porta, um `.env`, e sobe como serviço isolado. Isso já ajuda bastante com o "puxadinho" clássico — não é um monólito costurando 10 clientes; cada agente é um processo próprio, com seu próprio banco e sua própria sessão.
 
 Visualmente, uma mensagem passa mais ou menos por isso até virar resposta:
