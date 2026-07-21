@@ -1,3 +1,6 @@
+---
+published: true
+---
 # De puxadinho a runtime: uma ideia sobre portar isso pro Agno
 
 > [!NOTE]
