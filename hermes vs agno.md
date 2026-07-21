@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-# Hermes Vs Agno: De puxadinho a runtime: uma ideia sobre portar isso pro Agno
+# Hermes vs Agno: de tapar buracos a runtime: uma ideia sobre portar isso pro Agno
 
 > [!NOTE]
 > Antes de mais nada: isso não é crítica nem "olha como vocês fazem errado". É só o que a gente foi aprendendo aqui na BF Labs, testando bastante coisa em produção — com números e incidentes reais (sem nome de cliente, claro). Compartilho mais como sugestão do que como receita — pega o que fizer sentido pro que você está construindo.
